@@ -39,3 +39,4 @@ querying the web server, running an OLED display (ssd1306 128x64 OLED module), S
 a Logitech 920 Pro webcam to a streaming service (either Twitch or Youtube) and lighting the
 printer up with an individually addressable RGB strip (4 LEDs, wsb2812b, also known as NeoPixels) during the night.
 * I've included my [website bookmarks I colledcted while doing research](https://github.com/LM-loleris/RobloxPrinter/blob/main/NOTES/LINKS.txt) on how to get all of this going.
+* [twitch_stream.py](https://github.com/LM-loleris/RobloxPrinter/blob/main/twitch_stream.py) actually supports both Twitch and Youtube streaming platforms identically.
