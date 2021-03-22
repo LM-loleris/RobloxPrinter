@@ -25,8 +25,7 @@ know when the printer was online.
 * Thermal printers are fast, do not use ink (temperature sensitive paper) and are
 extremely easy to maintain.
 * Initially I controlled a printer (PeriPage A6) with a laptop running windows - 
-it was much easier to setup than a professional receipt printer since there were
-windows drivers for it. It's easy to print on a windows supported printer using
+it was much easier to setup and find and install windows drivers for. It's easy to print on a windows supported printer using
 Python with the [pywin32 library](http://timgolden.me.uk/pywin32-docs/win32print.html).
 The drawbacks of the PeriPage A6 route specifically was the inability to detect when
 the paper has run out.
