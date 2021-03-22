@@ -28,7 +28,7 @@ windows drivers for it. It's easy to print on a windows supported printer using
 Python with the [pywin32 library](http://timgolden.me.uk/pywin32-docs/win32print.html).
 The drawbacks of the PeriPage A6 route specifically was the inability to detect when
 the paper has run out.
-* To allow the project serve more people I looked for a professional termal printer and
+* To allow the project to serve more people I looked for a professional termal printer and
 bought a second hand TM-T88V Epson printer which is supposedly one of the best
 commercial thermal printers in the market - this should mean that it would be easy
 to find [libraries](https://python-escpos.readthedocs.io/en/latest/) for such product and get it running in a custom environment.
