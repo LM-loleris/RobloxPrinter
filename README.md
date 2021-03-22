@@ -37,5 +37,5 @@ to find [libraries](https://python-escpos.readthedocs.io/en/latest/) for such pr
 of the project runs on Linux, Raspberry Pi 4. The Raspberry was responsible for driving the printer,
 querying the web server, running an OLED display (ssd1306 128x64 OLED module), Streaming
 a Logitech 920 Pro webcam to a streaming service (either Twitch or Youtube) and lighting the
-printer up with an individually addressable RGB strip (4 LEDs, wsb2812b, also known as NeoPixels).
+printer up with an individually addressable RGB strip (4 LEDs, wsb2812b, also known as NeoPixels) during the night.
 * I've included my [website bookmarks I colledcted while doing research](https://github.com/LM-loleris/RobloxPrinter/blob/main/NOTES/LINKS.txt) on how to get all of this going.
