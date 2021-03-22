@@ -23,7 +23,7 @@ know when the printer was online.
 
 ## Printer controller
 
-* Main Python script is [ptogram.py](https://github.com/LM-loleris/RobloxPrinter/blob/main/program.py).
+* Main Python script is [program.py](https://github.com/LM-loleris/RobloxPrinter/blob/main/program.py).
 * Thermal printers are fast, do not use ink (temperature sensitive paper) and are
 extremely easy to maintain.
 * Initially I controlled a printer (PeriPage A6) with a laptop running windows - 
