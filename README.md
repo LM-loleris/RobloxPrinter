@@ -7,7 +7,7 @@ how to turn this code into a working project. This repository only contains
 -----------------
 
 The Roblox Printer project was running on a **Roblox game**, a **http web server that
-supports PHP and MySQL** and a **Raspberry Pi 4** (2 GB model) running Raspbian OS (Full install).
+supports PHP and MySQL** and a **Raspberry Pi 4** (2 GB model) running Raspbian OS (Full install) controlling an Epson TM-T88V printer.
 
 # Helpful notes
 
