@@ -24,12 +24,15 @@ know when the printer was online.
 
 * Initially I controlled a printer (PeriPage A6) with a laptop running windows - 
 it was much easier to setup than a professional receipt printer since there were
-windows drivers for it. It's easy to print on windows supported printer using Python with the [pywin32 library](http://timgolden.me.uk/pywin32-docs/win32print.html).
+windows drivers for it. It's easy to print on a windows supported printer using
+Python with the [pywin32 library](http://timgolden.me.uk/pywin32-docs/win32print.html).
+The drawbacks of the PeriPage A6 route specifically was the inability to detect when
+the paper has run out.
 * To allow the project serve more people I looked for a professional termal printer and
 bought a second hand TM-T88V Epson printer which is supposedly one of the best
 commercial thermal printers in the market - this should mean that it would be easy
 to find [libraries](https://python-escpos.readthedocs.io/en/latest/) for such product and get it running in a custom environment.
-* Unfortunately I didn't manage to make TM-T88V work on windows so the python side
+* Unfortunately I didn't manage to make TM-T88V properly work on windows so the python side
 of the project runs on Linux, Raspberry Pi 4 - it was responsible for driving the printer,
 querying the web server, running an OLED display (ssd1306 128x64 OLED module), Streaming
 a Logitech 920 Pro webcam to a streaming service (either Twitch or Youtube) and lighting the
