@@ -22,13 +22,15 @@ know when the printer was online.
 
 ## Printer controller
 
+* Thermal printers are fast, do not use ink (temperature sensitive paper) and are
+extremely easy to maintain.
 * Initially I controlled a printer (PeriPage A6) with a laptop running windows - 
 it was much easier to setup than a professional receipt printer since there were
 windows drivers for it. It's easy to print on a windows supported printer using
 Python with the [pywin32 library](http://timgolden.me.uk/pywin32-docs/win32print.html).
 The drawbacks of the PeriPage A6 route specifically was the inability to detect when
 the paper has run out.
-* To allow the project to serve more people I looked for a professional termal printer and
+* To allow the project to serve more people I looked for a professional thermal printer and
 bought a second hand TM-T88V Epson printer which is supposedly one of the best
 commercial thermal printers in the market - this should mean that it would be easy
 to find [libraries](https://python-escpos.readthedocs.io/en/latest/) for such product and get it running in a custom environment.
