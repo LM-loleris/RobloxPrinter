@@ -1,0 +1,35 @@
+INSTALLING ESCPOS:
+
+https://python-escpos.readthedocs.io/en/latest/user/installation.html
+pip3 install --pre python-escpos
+
+-------------------------------------------
+
+RUNNING FROM TERMINAL:
+
+sudo -E python3 program.py
+
+-------------------------------------------
+
+Several dependencies:
+
+sudo pip install pillow
+
+sudo pip install opencv-python 
+sudo apt-get install libcblas-dev
+sudo apt-get install libhdf5-dev
+sudo apt-get install libhdf5-serial-dev
+sudo apt-get install libatlas-base-dev
+sudo apt-get install libjasper-dev 
+sudo apt-get install libqtgui4 
+sudo apt-get install libqt4-test
+
+sudo pip install upnpclient
+
+-------------------------------------------
+
+Startup on raspberry pi 4 was made using systemd:
+
+sudo systemctl start robloxprinter.service
+sudo systemctl stop robloxprinter.service
+sudo systemctl enable robloxprinter.service

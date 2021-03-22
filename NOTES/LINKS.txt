@@ -1,0 +1,12 @@
+https://learnxinyminutes.com/docs/python/
+https://stackoverflow.com/questions/6326042/send-a-print-job-to-usb-printer-using-python
+http://timgolden.me.uk/python/win32_how_do_i/print.html
+https://python-escpos.readthedocs.io/en/latest/user/installation.html
+https://github.com/jimbobbennett/RaspberryPiTwitchStreamer
+https://randomnerdtutorials.com/video-streaming-with-raspberry-pi-camera/
+https://learn.adafruit.com/ultimate-youtube-live-camera/streaming-to-youtube
+https://www.makeuseof.com/tag/live-stream-youtube-raspberry-pi/
+https://timber.io/blog/multiprocessing-vs-multithreading-in-python-what-you-need-to-know/
+https://www.raspberrypi.org/documentation/linux/usage/systemd.md
+https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage
+https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
