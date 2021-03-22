@@ -6,7 +6,7 @@ import subprocess
 import hardware as Hardware
 
 IngestUrl = "rtmp://a.rtmp.youtube.com/live2/"
-StreamKey = "mmhy-4sut-xe22-x6m2-2pv0"
+StreamKey = "" # Your stream key here
 
 StreamCommandRaspicam = 'raspivid -w 1920 -h 1080 -o - -t 0 -vf -hf -fps 30 -b 4500000 | ffmpeg -re -ar 44100 -ac 2 -acodec pcm_s16le -f s16le -ac 2 -i /dev/zero -f h264 -i - -fflags nobuffer -vcodec copy -acodec aac -ab 128k -g 50 -strict experimental -f flv '
 StreamCommandLogitech = 'ffmpeg -re -ar 44100 -ac 2 -acodec pcm_s16le -f s16le -ac 2 -i /dev/zero -framerate 8 -video_size 1280x720 -i /dev/video0 -fflags nobuffer -c:v h264_omx -b:v 2M -c:a copy -f flv '
