@@ -34,7 +34,7 @@ bought a second hand TM-T88V Epson printer which is supposedly one of the best
 commercial thermal printers in the market - this should mean that it would be easy
 to find [libraries](https://python-escpos.readthedocs.io/en/latest/) for such product and get it running in a custom environment.
 * Unfortunately I didn't manage to make TM-T88V properly work on windows so the python side
-of the project runs on Linux, Raspberry Pi 4 - it was responsible for driving the printer,
+of the project runs on Linux, Raspberry Pi 4. The Raspberry was responsible for driving the printer,
 querying the web server, running an OLED display (ssd1306 128x64 OLED module), Streaming
 a Logitech 920 Pro webcam to a streaming service (either Twitch or Youtube) and lighting the
 printer up with an individually addressable RGB strip (4 LEDs, wsb2812b, also known as NeoPixels).
