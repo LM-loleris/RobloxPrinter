@@ -2,7 +2,7 @@
 
 ***Disclaimer:*** *This repository does not and will not include a full guide on
 how to turn this code into a working project. This repository only contains
-two essential modules required for the Roblox game side of the project*
+[two essential modules required for the Roblox game side of the project](https://github.com/LM-loleris/RobloxPrinter/tree/main/ROBLOX)*
 
 -----------------
 
